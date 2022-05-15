@@ -1,0 +1,40 @@
+<html lang="pt-br">
+    <head>
+        <title>Urna eleitoral</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="urna.css" type="text/css" />
+        <script src="urnaOperations.js" defer="defer"></script>
+        <link rel="icon" href="icone.png">
+    </head>
+    <body>
+        <form id="buttons">
+            <input type="button" value="1" class="number" />
+            <input type="button" value="2" class="number"/>
+            <input type="button" value="3" class="number"/>
+            <input type="button" value="4" class="number"/>
+            <input type="button" value="5" class="number"/>
+            <input type="button" value="6" class="number"/>
+            <input type="button" value="7" class="number"/>
+            <input type="button" value="8" class="number"/>
+            <input type="button" value="9" class="number"/>
+            <input type="button" value="0" class="number" id="zero"/>
+            <input type="button" value="branco" id="branco" class="actions"/>
+            <input type="button" value="corrige" id="corrige" class="actions"/>
+            <input type="button" value="confirma" id="confirma" class="actions"/>
+        </form>        
+        <div id="tela">
+            <form id="numCandidato">
+                <input type="text" maxlength="1" readonly="readonly" class="numCandidato"/>
+                <input type="text" maxlength="1" readonly="readonly" class="numCandidato"/>
+                <input type="text" maxlength="1" readonly="readonly" class="numCandidato"/>
+                <input type="text" maxlength="1" readonly="readonly" class="numCandidato"/>
+            </form> 
+            <p id="partido" class="texto"></p>
+            <p id="candidato" class="texto"></p>
+            <p id="mensagemBranco" class="texto"></p>
+            <p id="mensagemVoto" class="texto"></p>
+        </div>
+        
+    </body>
+</html>

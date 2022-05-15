@@ -1,0 +1,36 @@
+body {
+    display: grid;
+    grid-template-columns: 50% 50%
+}
+
+#candidatos {
+    grid-column-start: 1;
+    border: 3px solid #000;
+}
+#partidos {
+    grid-column-start: 2;
+    border: 3px solid black;
+}
+
+caption {
+    margin-bottom: 5px;
+    font-weight: bold;
+    font-size: 22px;
+    
+}
+thead {
+    font-size: 18px;
+    text-align: center;
+    font-weight: bold;
+}
+
+td {
+    border: 1px solid black;
+    font-size:16px;
+}
+
+.eleito {
+    background-color: gray;
+    color: white;
+}
+
